@@ -57,16 +57,30 @@
 - Create the basic config for testnet:
 
   `cardanopy create --template basic --network testnet files/app`
+
+  ```bash
+  Created cardano defaults from 'basic' template for network 'testnet': 'files/app'
+  ```
 - Build the local basic Dockerfile
 
-  `chmod +x /scripts/build.sh`
+  `chmod +x scripts/build.sh`
 
   `./scripts/build.sh`
+
+  ```bash
+  latest: Pulling from floydcraft/cardano-py-slim
+  ...
+  FINISHED        
+  ```
 - Start/run the node using that config:
   > NOTE: we disabled mounting the local filesystem to the container because we now include the configs in the docker image. Feel free to remove it from the docker image and continue to use the local mount for quick iterating.
 
   `cardanopy docker run --sub _MOUNT=False --sub _IMAGE=floydcraft/cardano-py-example-basic:latest files/app`
 
+  ```bash
+  7f1b51871e4f0be32e81c51d7e471a26ef282eb34bdb96295376421a14e6ad99
+  root@7f1b51871e4f:/# 
+  ```
   > NOTE: you can also just update the `substitutions` values in the `files/app/cardanopy.yaml` config. Then you don't need to pass them as arguments (e.g., `--sub _MOUNT=False, ...`).
 - Once your logged into the node, run:
 

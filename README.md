@@ -29,9 +29,19 @@
 - Create the basic config for testnet:
 
   `cardanopy create --template basic --network testnet files/app`
+
+
+  ```bash
+  Created cardano defaults from 'basic' template for network 'testnet': 'files/app'
+  ```
 - Start/run the node using that config:
 
   `cardanopy docker run files/app`
+
+  ```bash
+  7f1b51871e4f0be32e81c51d7e471a26ef282eb34bdb96295376421a14e6ad99
+  root@7f1b51871e4f:/#
+  ```
 - Once your logged into the node, run:
 
   `cardanopy cli query tip` as often as you like.
