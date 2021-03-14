@@ -105,6 +105,15 @@
   }
   ```
 
+## Cleanup Examples
+> NOTE: this is for the Quickstart basic examples.
+- Stop the Cardano node docker container:
+
+  `cardanopy docker stop files/app/`
+- Remove the files / cache
+
+  `rm -rf files/`
+
 # Next Steps
 Now that you have a passive local testnet node, you can run all the other CLI via `cardano-cli` command. This is what Cardano docs reference.
 
