@@ -17,12 +17,6 @@
 - Install or upgrade cardanopy:
 
   `pip3 install --upgrade cardanopy`
-- Clone the examples git repo:
-
-  `git clone https://github.com/floydcraft/cardano-py-examples.git`
-- Navigate to the basic example project:
-
-  `cd cardano-py-examples/basic-example`
 - Create the basic config for testnet:
 
   `cardanopy create --template basic --network testnet files/app`
