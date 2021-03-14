@@ -15,7 +15,7 @@
 - docker is installed and running
 
 # Quickstart - see [Basic Example](basic-example)
-## Use predefined docker image cardano-py-slim
+## Use predefined docker image cardano-py-slim. See [Basic Example](basic-example) for custom docker image example.
 
 - Install or upgrade cardanopy:
 
@@ -55,3 +55,12 @@
       "slotNo": 352369
   }
   ```
+
+## Cleanup Examples
+> NOTE: this is for the Quickstart basic examples.
+- Stop the Cardano node docker container:
+
+  `cardanopy docker stop files/app/`
+- Remove the files / cache
+
+  `rm -rf files/`
