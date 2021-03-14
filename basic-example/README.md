@@ -22,7 +22,7 @@
   `git clone https://github.com/floydcraft/cardano-py-examples.git`
 - Navigate to the basic example project:
 
-  `cd cardano-py-examples\basic-example`
+  `cd cardano-py-examples/basic-example`
 - Create the basic config for testnet:
 
   `cardanopy create --template basic --network testnet files/app`
@@ -53,7 +53,7 @@
   `git clone https://github.com/floydcraft/cardano-py-examples.git`
 - Navigate to the basic example project:
 
-  `cd cardano-py-examples\basic-example`
+  `cd cardano-py-examples/basic-example`
 - Create the basic config for testnet:
 
   `cardanopy create --template basic --network testnet files/app`
