@@ -1,6 +1,6 @@
 [![cardano-py Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/FyDz4Xrt4x)
 
-<img src="images/CardanoPyBlueSmall.png" alt="CardanoPy" width="150" height="150">
+<img src="../images/CardanoPyBlueSmall.png" alt="CardanoPy" width="150" height="150">
 
 # Overview
 > NOTE: Please visit the Cardano Idealscale link and provide this project Kudos and/or provide feedback!
