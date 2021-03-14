@@ -15,7 +15,8 @@
 - docker is installed and running
 
 # Quickstart - see [Basic Example](basic-example)
-## Use predefined docker image cardano-py-slim. See [Basic Example](basic-example) for custom docker image example.
+## Use predefined docker image cardano-py-slim
+> See [Basic Example](basic-example) for custom docker image example.
 
 - Install or upgrade cardanopy:
 
