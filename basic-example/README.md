@@ -31,8 +31,7 @@
   `cardanopy docker run files/app`
 
   ```bash
-  7f1b51871e4f0be32e81c51d7e471a26ef282eb34bdb96295376421a14e6ad99
-  root@7f1b51871e4f:/#
+  ada@ce02f129e793:~$
   ```
 - Once your logged into the node, run:
 
@@ -83,8 +82,7 @@
   `cardanopy docker run --sub _MOUNT=False --sub _IMAGE=floydcraft/cardano-py-example-basic:latest files/app`
 
   ```bash
-  7f1b51871e4f0be32e81c51d7e471a26ef282eb34bdb96295376421a14e6ad99
-  root@7f1b51871e4f:/#
+  ada@ce02f129e793:~$
   ```
   > NOTE: you can also just update the `substitutions` values in the `files/app/cardanopy.yaml` config. Then you don't need to pass them as arguments (e.g., `--sub _MOUNT=False, ...`).
 - Once your logged into the node, run:
