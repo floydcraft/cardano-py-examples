@@ -4,4 +4,4 @@ set -u
 set -o pipefail
 
 docker pull floydcraft/cardano-py-slim:latest
-docker build --tag "floydcraft/cardano-py-example-basic:latest" .
+docker build --tag "floydcraft/cardano-py-basic-example:latest" .

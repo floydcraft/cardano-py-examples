@@ -1,8 +1,10 @@
 FROM floydcraft/cardano-py-slim:latest
 LABEL maintainer="chbfiv@floydcraft.com"
 
-WORKDIR /
-COPY files .
+USER ada
+WORKDIR /home/ada
+
+COPY --chown=ada:ada files .
 
 ENTRYPOINT [ "cardanopy" ]
-CMD [ "run", "/app" ]
+CMD [ "run", "/home/ada/app" ]

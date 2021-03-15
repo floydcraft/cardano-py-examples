@@ -79,7 +79,7 @@
 - Start/run the node using that config:
   > NOTE: we disabled mounting the local filesystem to the container because we now include the configs in the docker image. Feel free to remove it from the docker image and continue to use the local mount for quick iterating.
 
-  `cardanopy docker run --sub _MOUNT=False --sub _IMAGE=floydcraft/cardano-py-example-basic:latest files/app`
+  `cardanopy docker run --sub _MOUNT=False --sub _IMAGE=floydcraft/cardano-py-basic-example:latest files/app`
 
   ```bash
   ada@ce02f129e793:~$
